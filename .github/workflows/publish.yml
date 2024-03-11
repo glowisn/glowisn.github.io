@@ -33,7 +33,7 @@ jobs:
         run: npx next build
 
       - name: List directory contents
-        run: ls -al
+        run: ls -al && echo next.config.js
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
