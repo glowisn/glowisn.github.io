@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --naver-green: #1ec800;
+  --naver-logoGreen: #03cf5d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+/* @layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
