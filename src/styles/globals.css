@@ -16,6 +16,29 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
+a {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  @apply text-blue-500 hover:text-blue-700 transition-colors duration-300 ease-in-out;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: currentColor;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 /* @layer utilities {
   .text-balance {
     text-wrap: balance;
