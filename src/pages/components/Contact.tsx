@@ -1,5 +1,5 @@
 import { IconType } from "react-icons";
-import { IoMail, IoCall, IoLogoGithub } from "react-icons/io5";
+import { IoDocument, IoMail, IoCall, IoLogoGithub } from "react-icons/io5";
 
 export default function Contact() {
   return (
@@ -8,6 +8,8 @@ export default function Contact() {
       <div className="max-w-[32rem]">
         <h2 className="text-2xl">Contact</h2>
         <ul className="text-lg">
+          <ContactListElements href="https://glowisn.github.io" text="이력서 페이지" Icon={IoDocument}>
+          </ContactListElements>
           <ContactListElements href="mailto:asdxcv1998@gmail.com" text="asdxcv1998@gmail.com " Icon={IoMail} />
           <ContactListElements href="tel:+821042477515" text="010-4247-7515" Icon={IoCall} />
           <ContactListElements href="https://github.com/glowisn" text="Github Profile" Icon={IoLogoGithub} />
