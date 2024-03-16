@@ -5,6 +5,7 @@
 :root {
   --naver-green: #1ec800;
   --naver-logoGreen: #03cf5d;
+  --custom-color: #5afc03;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +15,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+}
+
+li{
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 a {
@@ -39,8 +45,19 @@ a {
   }
 }
 
-/* @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
   }
-} */
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 2s ease infinite;
+}

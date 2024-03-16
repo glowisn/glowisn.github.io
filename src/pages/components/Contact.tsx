@@ -1,10 +1,10 @@
-import { IconType } from "react-icons";
+import type { IconType } from "react-icons";
 import { IoDocument, IoMail, IoCall, IoLogoGithub } from "react-icons/io5";
 
 export default function Contact() {
   return (
-    <section className="m-auto max-w-[50rem] flex justify-between">
-      <div className=" w-[200px] h-[300px] bg-green-500"></div>
+    <section className="m-auto max-w-[50rem] flex justify-end">
+      {/* <div className=" w-[200px] h-[300px] bg-green-500"></div> */}
       <div className="max-w-[32rem]">
         <h2 className="text-2xl font-bold">Contact</h2>
         <ul className="text-lg">
