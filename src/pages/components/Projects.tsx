@@ -1,10 +1,12 @@
+import { IoArchive } from "react-icons/io5";
+
 export default function Projects() {
   return (
     <>
       <h2 className="text-3xl font-bold mb-[0.5em]">Projects</h2>
-      <div className="border rounded-xl p-[1em]">
+      <div className="border rounded-xl p-[1em] mb-[0.5em]">
         <div className="flex items-center gap-2">
-          <a className="text-2xl font-bold mr-[1em]">BaekjoonRooms</a>
+          <div className="text-2xl font-bold mr-[1em]">BaekjoonRooms</div>
           <div className="text-gray-700">
             ver0. 2023.11 ~ 2023.12
             <br />
@@ -20,15 +22,18 @@ export default function Projects() {
         <a href="https://chromewebstore.google.com/detail/baekjoonrooms/fndogmcoaeenjcihljbahpdlfinkepeh?hl=ko">
           Chrome Extension Store 링크
         </a>
-        <ul className="text-base my-[0.67em]">
-          <li>함께푸는 실시간 알고리즘 경쟁 플랫폼</li>
-          <li>네이버 부스트캠프 팀 프로젝트</li>
-          <li>팀원 : 5명 (FE 3, BE 2)</li>
-          <li>
-            사용 기술 : React, TypeScript, TailwindCSS, Vite, React-Router, Tanstack-Query,
-            Socket.IO
-          </li>
-        </ul>
+        <div className="flex items-start my-[0.67em]">
+          <IoArchive className="mt-[0.2em] mr-2" />
+          <ul className="text-base">
+            <li className="list-none">함께 푸는 실시간 알고리즘 경쟁 플랫폼</li>
+            <li className="list-none">네이버 부스트캠프 팀 프로젝트</li>
+            <li className="list-none">팀원 : 5명 (FE 3, BE 2)</li>
+            <li className="list-none">
+              사용 기술 : React, TypeScript, TailwindCSS, Vite, React-Router, Tanstack-Query,
+              Socket.IO
+            </li>
+          </ul>
+        </div>
         <div>
           <ul>
             <li>
@@ -62,9 +67,10 @@ export default function Projects() {
           </ul>
         </div>
       </div>
-      <div className="border rounded-xl p-[1em]">
+
+      <div className="border rounded-xl p-[1em] mb-[0.5em]">
         <div className="flex items-center gap-2">
-          <a className="text-2xl font-bold mr-[1em]">쾌변루틴</a>
+          <div className="text-2xl font-bold mr-[1em]">쾌변루틴</div>
           <div className="text-gray-700">2022.01 ~ 2022.08</div>
         </div>
         <a href="https://github.com/alexcho617/HEM-Routine-App" className="mr-[2em]">
@@ -73,12 +79,15 @@ export default function Projects() {
         <a href="https://www.youtube.com/watch?v=EDdkB7m8e6U&ab_channel=%EC%9D%B4%EA%B0%95%EB%AF%BC">
           프로모션 비디오
         </a>
-        <ul className="text-base my-[0.67em]">
-          <li>바이오메디컬 헬스케어 크로스플랫폼 앱</li>
-          <li>HEM 산학 프로젝트</li>
-          <li>팀원 : 3명</li>
-          <li>사용 기술 : Flutter, Firebase, GCP, Google Big Query ML</li>
-        </ul>
+        <div className="flex items-start my-[0.67em]">
+          <IoArchive className="mt-[0.2em] mr-2" />
+          <ul className="text-base">
+            <li className="list-none">바이오메디컬 헬스케어 크로스플랫폼 앱</li>
+            <li className="list-none">HEM 산학 프로젝트</li>
+            <li className="list-none">팀원 : 3명</li>
+            <li className="list-none">사용 기술 : Flutter, Firebase, GCP, Google Big Query ML</li>
+          </ul>
+        </div>
         <div>
           <ul>
             <li>iOS, Android 양 스토어 비공개 배포</li>
