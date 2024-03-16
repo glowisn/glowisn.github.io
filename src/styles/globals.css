@@ -20,7 +20,12 @@ body {
 li{
   list-style-type: disc;
   list-style-position: inside;
+
+  li {
+    list-style-type: square;
+  }
 }
+
 
 a {
   cursor: pointer;
