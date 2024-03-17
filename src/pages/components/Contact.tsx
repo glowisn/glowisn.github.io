@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="m-auto max-w-[50rem] flex justify-end">
       {/* <div className=" w-[200px] h-[300px] bg-green-500"></div> */}
       <div className="max-w-[32rem]">
-        <h2 className="text-2xl font-bold">Contact</h2>
+        <h2 className="text-4xl font-bold">Contact</h2>
         <ul className="text-lg">
           <ContactListElements
             href="https://glowisn.github.io"

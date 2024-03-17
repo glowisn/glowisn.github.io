@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 :root {
-  --naver-green: #1ec800;
-  --naver-logoGreen: #03cf5d;
-  --custom-color: #5afc03;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +12,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  @apply text-lg;
 }
 
 li{
