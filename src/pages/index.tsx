@@ -3,7 +3,6 @@ import Description from "./components/Description";
 import Block from "./components/Block";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
-import Head from "./components/Head";
 import Left from "./components/Left";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -16,14 +15,15 @@ export default function Home() {
           <Left />
         </div>
         <div className="">
-          <Head />
           <Contact />
           <Block />
           <Description />
           <Block />
           <Education />
+          <div className="page-break" />
           <Block />
           <Projects />
+          <div className="page-break" />
           <Block />
           <Skills />
           <Footer />

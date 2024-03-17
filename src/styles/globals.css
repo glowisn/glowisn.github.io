@@ -15,15 +15,40 @@ body {
   @apply text-lg;
 }
 
-li{
+@media print {
+  .text-5xl {
+    @apply text-4xl;
+  }
+
+  .text-4xl {
+    @apply text-3xl;
+  }
+
+  .text-2xl {
+    @apply text-xl;
+  }
+
+  .page-break {
+    page-break-after: always;
+  }
+
+  .print-min-width {
+    min-width: 12em;
+  }
+
+  body {
+    @apply text-base;
+  }
+}
+
+li {
   list-style-type: disc;
   list-style-position: inside;
-
+  
   li {
     list-style-type: square;
   }
 }
-
 
 a {
   cursor: pointer;

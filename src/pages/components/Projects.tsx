@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className="text-4xl font-bold">Projects</h2>
       <Divider />
       <div className="flex">
-        <div className="min-w-[16rem]">
+        <div className="min-w-[16em] print-min-width">
           <div className="text-2xl font-bold mr-[1em]">BaekjoonRooms</div>
           <div className="text-custom-caption">
             ver0. 2023.11 ~ 2023.12
@@ -17,7 +17,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="flex-grow">
-          <ul className="rounded-lg border mb-[1em] p-2 bg-blue-200/50">
+          <ul className="rounded-lg border mb-[1em] p-3 pb-2 bg-blue-200/50">
             <li className="list-none">
               함께 푸는 실시간 알고리즘 경쟁 플랫폼 |{" "}
               <div className="inline-block text-custom-caption">네이버 부스트캠프 팀 프로젝트</div>
@@ -62,7 +62,7 @@ export default function Projects() {
               </li>
               <li>Socket.IO를 활용한 실시간 채팅 및 정보 공유</li>
               <li>
-                Tanstack-Query를 통한 반복되는 쿼리의 호출 최소화{" "}
+                Tanstack-Query를 통한 중복 쿼리의 호출 최소화{" "}
                 <a
                   href="https://github.com/boostcampwm2023/baekjoonrooms/pull/144"
                   className="bg-custom-gray border rounded px-[0.3em] font-bold inline-flex justify-center items-center gap-1 overflow-hidden h-[1.25em]">
@@ -94,37 +94,39 @@ export default function Projects() {
       </div>
 
       <div className="flex w-full">
-        <div className="min-w-[16rem]">
+        <div className="min-w-[16em] print-min-width">
           <div className="text-2xl font-bold mr-[1em]">쾌변루틴</div>
           <div className="text-custom-caption">2022.01 ~ 2022.08</div>
         </div>
 
         <div className="flex-grow">
-          <ul className="rounded-lg border mb-[1em] p-2 bg-blue-200/50">
+          <ul className="rounded-lg border mb-[1em] p-3 pb-2 bg-blue-200/50">
             <li className="list-none">
               바이오메디컬 헬스케어 크로스플랫폼 앱 |{" "}
               <div className="inline-block text-custom-caption">HEM 산학 프로젝트</div>
             </li>
             <li className="list-none">팀원 : 3명</li>
             <li className="list-none">사용 기술 : Flutter, Firebase, GCP, Google Big Query ML</li>
-            <a
-              href="https://github.com/alexcho617/HEM-Routine-App"
-              className="mr-[2em] inline-flex items-center justify-center gap-1">
-              <IoLogoGithub className="inline" size={20} />
-              GitHub
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=EDdkB7m8e6U&ab_channel=%EC%9D%B4%EA%B0%95%EB%AF%BC"
-              className="mr-[2em] inline-flex items-center justify-center gap-1">
-              <IoLogoYoutube className="inline" size={20} />
-              프로모션 비디오
-            </a>
+            <div className="mt-[0.4em]">
+              <a
+                href="https://github.com/alexcho617/HEM-Routine-App"
+                className="mr-[2em] inline-flex items-center justify-center gap-1">
+                <IoLogoGithub className="inline" size={20} />
+                GitHub
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=EDdkB7m8e6U&ab_channel=%EC%9D%B4%EA%B0%95%EB%AF%BC"
+                className="mr-[2em] inline-flex items-center justify-center gap-1">
+                <IoLogoYoutube className="inline" size={20} />
+                프로모션 비디오
+              </a>
+            </div>
           </ul>
 
           <div>
             <ul>
               <li>iOS, Android 양 스토어 비공개 배포</li>
-              <li>비즈니스 로직에 적합하지 않은 기존 달력 라이브러리 수정 및 사용</li>
+              <li>비즈니스 로직에 맞게 기존 달력 라이브러리 수정 및 사용</li>
               <li>커스텀 탭 네비게이션 바 구현</li>
             </ul>
           </div>
