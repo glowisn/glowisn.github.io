@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <h2 className="text-4xl font-bold">Projects</h2>
       <Divider />
-      <div className="flex">
+      <div className="flex mb-[2em]">
         <div className="min-w-[16em] print-min-width">
           <div className="text-2xl font-bold mr-[1em]">BaekjoonRooms</div>
           <div className="text-custom-caption">

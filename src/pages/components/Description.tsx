@@ -11,9 +11,9 @@ export default function Description() {
         웹, 앱 기술들에 관심이 많아 Typescript 뿐만 아니라 Flutter, Firebase, Supabase, Vercel 등
         다양한 기술을 사용해 보았습니다.
         <br />
-        어플리케이션을 더욱 좋게 만드는 것에 관심이 많아 <a className="text-blue-700">
+        어플리케이션을 더욱 좋게 만드는 것에 관심이 많아 <a href="https://github.com/swieomswieomlab/black_bean">
           쉬엄쉬엄
-        </a>, <a className="text-blue-700">백준룸즈</a> 등 다양한 프로젝트를 유지보수 하거나
+        </a>, <a href="https://github.com/boostcampwm2023/baekjoonrooms">백준룸즈</a> 등 다양한 프로젝트를 유지보수 하거나
         업그레이드 하고 있습니다.
         <br />
         프론트엔드 뿐만 아니라 백엔드를 포함한 다양한 경험들을 쌓아 지속 가능한 개발자로 성장하고

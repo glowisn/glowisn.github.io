@@ -27,8 +27,8 @@ export default function Education() {
             <p className="text-custom-caption">2017.03 ~ 2023.08</p>
           </div>
           <ul className="my-[1em]">
-            <li>C 프로그래밍, 데이타구조, 데이타베이스 - (A+)</li>
-            <li>컴퓨터구조, 컴퓨터네트워크, Software Engineering - (A0)</li>
+            <li>C 프로그래밍(A+), 데이타구조(A+), 데이터베이스(A+)</li>
+            <li>컴퓨터구조(A0), 컴퓨터네트워크(A0), Software Engineering(A0)</li>
           </ul>
         </div> 
     </>
