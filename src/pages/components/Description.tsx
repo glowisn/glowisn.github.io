@@ -20,7 +20,7 @@ export default function Description() {
         싶습니다.
         <br />
         <br />
-        해당 페이지는 Next.js로 제작되었으며, GitHub Actions 및 Vercel을 통해 배포되었습니다.{" "}
+        해당 페이지는 Next.js로 제작되었으며, GitHub Actions 및 GitHub Pages을 통해 배포되었습니다.{" "}
         <a href="https://github.com/glowisn/glowisn.github.io">깃허브</a>
       </p>
     </>
