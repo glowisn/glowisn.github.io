@@ -18,6 +18,10 @@ export default function Description() {
         <br />
         프론트엔드 뿐만 아니라 백엔드를 포함한 다양한 경험들을 쌓아 지속 가능한 개발자로 성장하고
         싶습니다.
+        <br />
+        <br />
+        해당 페이지는 Next.js로 제작되었으며, GitHub Actions 및 Vercel을 통해 배포되었습니다.{" "}
+        <a href="https://github.com/glowisn/glowisn.github.io">깃허브</a>
       </p>
     </>
   );
