@@ -93,6 +93,49 @@ export default function Projects() {
         </div>
       </div>
 
+      <div className="flex mb-[2em]">
+        <div className="min-w-[16em] print-min-width">
+          <div className="text-2xl font-bold mr-[1em]">PixPen Plaza</div>
+          <div className="text-custom-caption">2024.02 ~ 진행중</div>
+        </div>
+        <div className="flex-grow">
+          <ul className="rounded-lg border mb-[1em] p-3 pb-2 bg-blue-200/50">
+            <li className="list-none">
+              자유롭게 이용가능한 사진, 글 공유 사이트 |{" "}
+              <div className="inline-block text-custom-caption">개인 프로젝트</div>
+            </li>
+            <li className="list-none">
+              사용 기술 : Next.js, React, TypeScript, TailwindCSS, Supabase, Vercel
+            </li>
+            <div className="mt-[0.4em]">
+              <a
+                href="https://github.com/glowisn/fairyhouse"
+                className="mr-[2em] inline-flex items-center justify-center gap-1">
+                <IoLogoGithub className="inline" size={20} />
+                GitHub
+              </a>
+              <a
+                href="https://fairyhouse.vercel.app/"
+                className="mr-[2em] inline-flex items-center justify-center gap-1">
+                <IoLink className="inline" size={20} />
+                Access URL
+              </a>
+            </div>
+          </ul>
+          <div className="mt-[1em]">
+            <ul>
+              <li>Supabase를 이용한 데이터베이스 구축 및 연결</li>
+              <li>Vercel을 이용한 자동화된 배포 프로세스 구현</li>
+              <li>
+                NextUI를 통해 SSR 기반의 구조 속에서도 CSR을 적용하여 동적 디자인 컴포넌트 구현에
+                성공, 사용자 경험 최적화
+              </li>
+              <li>무한 스크롤 구현 </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className="flex w-full">
         <div className="min-w-[16em] print-min-width">
           <div className="text-2xl font-bold mr-[1em]">쾌변루틴</div>
@@ -128,6 +171,7 @@ export default function Projects() {
               <li>iOS, Android 양 스토어 비공개 배포</li>
               <li>비즈니스 로직에 맞게 기존 달력 라이브러리 수정 및 사용</li>
               <li>커스텀 탭 네비게이션 바 구현</li>
+              <li>PM, 디자이너와 협업</li>
             </ul>
           </div>
         </div>
