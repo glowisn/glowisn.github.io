@@ -18,7 +18,6 @@ export default function Home() {
         <div className="page-break" />
         <Block />
         <Projects />
-        <div className="page-break" />
         <Block />
         <Skills />
         <Footer />
