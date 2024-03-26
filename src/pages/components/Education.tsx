@@ -28,7 +28,7 @@ export default function Education() {
           </div>
           <ul className="my-[1em]">
             <li>ABEEK(공학교육인증)</li>
-            <li>C 프로그래밍(A+), 데이타구조(A+), 데이터베이스(A+)</li>
+            <li>C 프로그래밍(A+), 데이터구조(A+), 데이터베이스(A+)</li>
             <li>컴퓨터구조(A0), 컴퓨터네트워크(A0), Software Engineering(A0)</li>
           </ul>
         </div> 

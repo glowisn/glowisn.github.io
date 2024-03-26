@@ -14,12 +14,13 @@ export default function Home() {
         <Block />
         <Description />
         <Block />
-        <Education />
+        <Skills />
         <div className="page-break" />
+        <Block />
+        <Education />
         <Block />
         <Projects />
         <Block />
-        <Skills />
         <Footer />
       </div>
     </>
